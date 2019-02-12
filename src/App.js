@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Layout, Header, Drawer, Navigation,Content } from 'react-mdl';
 import Main from './components/main.js';
 import Resume from './components/resume.js';
+
 import {Link} from 'react-router-dom'
 class App extends Component {
   render() {
