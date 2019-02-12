@@ -10,9 +10,6 @@ class App extends Component {
   render() {
 
 
-
-const name = "danish khan";
-
     return (
 
 
