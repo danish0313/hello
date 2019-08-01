@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {Route,Switch} from 'react-router-dom';
+import {Route,Switch , Redirect} from 'react-router-dom';
 import Home from './home';
 import Resume from './resume';
 import Project from './project';
@@ -12,7 +12,7 @@ class Main extends Component{
 
 render() {
 
-	
+
 
 return (
 
@@ -22,7 +22,7 @@ return (
 <Route path="/resume"   render={ () =>  (<Resume/>) }/>
 <Route path="/project" exact component={Project}/>
 <Route path="/contact" exact component={Contact}/>
-
+<Redirect to ="/" />
 
 
 

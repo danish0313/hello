@@ -4,7 +4,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Layout, Header, Drawer, Navigation,Content } from 'react-mdl';
 import Main from './components/main.js';
-import Resume from './components/resume.js';
 
 import {Link} from 'react-router-dom'
 class App extends Component {
@@ -18,17 +17,16 @@ class App extends Component {
 
 <div className="demo-big-content">
     <Layout>
-        <Header className="back" title={<Link style={{color: 'white' , textDecoration:'none'}}  to="/">  My Portfolio </Link>} scroll>
+        <Header className="back" title={<Link style={{color: 'white' }}  to="/">  My Portfolio </Link>} scroll>
             <Navigation>
                 <Link to ="/">HOME </Link>
-
                 <Link to ="/resume/" >RESUME </Link>
                 <Link to="/project">PROJECT</Link>
                 <Link to="/contact">CONTACT</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{color: 'black' , textDecoration:'none'}}  to="/">  My Portfolio </Link>}>
-            <Navigation>
+        <Drawer title={<Link  to="/">  My Portfolio </Link>}>
+            <Navigation className="left">
                  <Link to ="/">HOME </Link>
                 <Link to ="/resume">RESUME </Link>
                 <Link to="/project">PROJECT</Link>

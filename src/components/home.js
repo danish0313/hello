@@ -10,9 +10,9 @@ return (
 
 <div className="row">
 
-<div className="col-sm-12">
+<div className="col-sm-12  col-md-12 col-xm-12 col-lg-12">
 
-<img src={One} className="avatar" />
+<img src={One} alt="avatar" className="avatar" />
 
 
 
@@ -21,7 +21,7 @@ return (
 
 <div className=" box">
 
-<h2 style={{fontWeight: 'bold'}}>FULL STACK WEB-DEVELOPER! </h2>
+<h2 style={{fontWeight: 'bold' , paddingTop:'20px'}}>FULL STACK WEB-DEVELOPER! </h2>
 
 <hr/>
 
@@ -34,7 +34,7 @@ return (
 
 
 
-<a href="http://www.google.com">
+<a href="https://www.linkedin.com/in/danish-khan-5a95b6174/">
 
 <i className="fa fa-linkedin-square"/>
 
@@ -43,7 +43,7 @@ return (
 
 
 
-<a href="http://www.google.com">
+<a href="https://github.com/danish0313">
 
 <i className="fa fa-github-square"/>
 
@@ -58,7 +58,7 @@ return (
 
 
 
-<a href="http://www.google.com">
+<a href="https://www.xing.com/profile/Danish_Khan25/cv?sc_o=mxb_p">
 
 <i className="fa fa-xing-square"/>
 

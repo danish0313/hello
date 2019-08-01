@@ -16,16 +16,16 @@ import Skills from './skills.js';
 class Resume extends Component{
 render () {
 
-  
-return (  
+
+return (
 
 <div>
 <Grid>
-<Cell  className="left-side" col={4}>  
+<Cell  className="left-side" col={4}  tablet={12} phone={12}>
 
 <div style={{textAlign:'center'}}>
 
-<img  alt="avatar" style={{height: '200px'}} src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"/>
+<img  alt="avatar" style={{height: '200px' , marginTop:'20px'}} src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"/>
 
 
 </div>
@@ -70,7 +70,8 @@ return (
 
  </Cell>
 
-<Cell className="right-side" col={8}>  
+<Cell className="right-side" col={8}   tablet={12} phone={12}>
+
 
 <h2>Education </h2>
 
@@ -153,7 +154,7 @@ jobdescription ={'Mauris sagittis pellentesque lacus eleifend lacinia Lorem ipsu
 
 </div>
 
-   
+
 
 
 )

@@ -12,6 +12,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 
 
 
+
 .col-sm-12{
 
 	padding-bottom: 100px;
@@ -53,15 +54,20 @@ opacity: .8;
 margin: auto;
 
 color: white;
+height: auto;
 
 }
 
 .projects-grid{
-
+box-sizing: border-box;
 display: flex;
+align-content: space-around;
+flex-wrap: wrap;
 
+align-items: baseline;
 
 }
+
 
 .box hr{
 
@@ -80,7 +86,7 @@ margin: auto;
 
 
 margin:10px;
-
+padding: 10px;
 
 
 }
@@ -89,6 +95,7 @@ margin:10px;
 .social {
 
 width: 50%;
+padding: 20px;
 margin:auto;
 display: flex;
 
@@ -115,8 +122,6 @@ color: white;
 .contact-body {
 
 margin: auto;
-
-position: fixed;
 width:100%;
 height: 100%;
 justify-content: center;
@@ -133,7 +138,7 @@ padding-top:2em;
 text-align: center;
 justify-content: center;
 width:80%;
-height: 550px;
+height: auto;
 background: white;
 color:black;
 
@@ -147,7 +152,7 @@ margin-bottom: 20px;
 
 
 .contact-grid h2{
- 
+
  font-family: 'Anton' , sans-serif;
 
 
@@ -202,6 +207,7 @@ font-weight: bold;
 
 
 .left-side{
+
 	padding-left: 20px;
 
 background-color:#F2202B;
@@ -214,15 +220,43 @@ color: white
 
 
 
+a{
+
+text-decoration: none !important;
+
+}
+
+.left a {
+		color: black !important;
+}
+
+
+/*   for Home to be responsive     */
 
 
 
+@media screen and (max-width: 680px) {
+
+.social a {
+
+padding-right: 10px;
+}
 
 
 
+}
 
 
+ /*   for card to be responsive     */
 
 
+@media screen and (max-width: 1100px) {
+
+.mdl-card{
+
+	margin-bottom:15px !important;
+
+}
 
 
+}

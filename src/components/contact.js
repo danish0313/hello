@@ -6,15 +6,15 @@ class Contact extends Component{
 
 render() {
 
-return (  
+return (
 
 <div className="contact-body">
 
 <Grid className="contact-grid">
 
-<Cell col={6}>     <h2>  Danish Khan </h2> 
+<Cell col={6} tablet={12} phone={12}>     <h2>  Danish Khan </h2>
 
-<img src="http://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
+<img alt="avatar" src="http://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
 style={{height: '250px'}}/>
 
 <p style={{ width: '75%' , margin:'auto', paddingTop: '1em'}}>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -25,7 +25,7 @@ style={{height: '250px'}}/>
 
  </Cell>
 
-<Cell col={6}>  <h2>  Contact Me</h2> 
+<Cell col={6} tablet={12} phone={12}>  <h2>  Contact Me</h2>
 <hr/>
 
 <div className="contact-list">
@@ -33,7 +33,7 @@ style={{height: '250px'}}/>
 
 <List>
   <ListItem>
-  
+
   <ListItemContent style={{  fontSize:'30px', fontFamily:'Anton'}}>
 
 <i className="fa fa-phone-square" aria-hidden="true"/>
@@ -44,7 +44,7 @@ style={{height: '250px'}}/>
 
   </ListItem>
   <ListItem>
-    
+
 <ListItemContent style={{  fontSize:'30px', fontFamily:'Anton'}}>
 
 <i className="fa fa-fax" aria-hidden="true"/>
@@ -60,7 +60,7 @@ style={{height: '250px'}}/>
 
  <ListItem>
 
-<ListItemContent style={{  fontSize:'30px', fontFamily:'Anton'}}>
+<ListItemContent style={{  fontSize:'25px', fontFamily:'Anton'}}>
 
 <i className="fa fa-skype" aria-hidden="true"/>
  someone@example.com
@@ -76,7 +76,7 @@ style={{height: '250px'}}/>
 
   <ListItem>
 
-<ListItemContent style={{  fontSize:'30px', fontFamily:'Anton'}}>
+<ListItemContent style={{  fontSize:'25px', fontFamily:'Anton'}}>
 
 <i className="fa fa-envelope" aria-hidden="true"/>
 
